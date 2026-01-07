@@ -19,6 +19,7 @@
     "snyk:android": "cd android && snyk monitor --gradle-sub-project=app --configuration-attributes='com.android.build.api.attributes.BuildTypeAttr:release,react-native-camera:general,org.jetbrains.kotlin.platform.type:androidJvm' --configuration-matching='compile|implementation' --org=appdev --project-name=developerapp-android${SNYK_SUBPROJECT}"
   },
   "dependencies": {
+    "@expo/config-plugins": "2.0.4",
     "@gorhom/bottom-sheet": "5.1.1",
     "@mendix/native": "9.2.0",
     "@notifee/react-native": "9.1.8",
@@ -40,6 +41,7 @@
     "@react-native-firebase/messaging": "20.1.0",
     "@react-native-firebase/ml": "20.1.0",
     "@react-native-picker/picker": "2.11.0",
+    "@react-native-voice/voice": "3.2.4",
     "@react-navigation/native": "7.0.14",
     "@sbaiahmed1/react-native-biometrics": "0.4.0",
     "@swan-io/react-native-browser": "0.4.1",
