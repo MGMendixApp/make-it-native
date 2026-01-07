@@ -83,7 +83,6 @@
     "react-native-view-shot": "4.0.3",
     "react-native-vision-camera": "4.7.1",
     "react-native-webview": "13.13.2",
-    "react-native-zip-archive": "7.0.2",
     "simple-git": "^3.27.0",
     "semver": "5.7.2"
   },
