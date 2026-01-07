@@ -43,7 +43,6 @@ android {
         buildConfigField "boolean", "OTA", "false"
         manifestPlaceholders["cookieEncryption"] = project.hasProperty("mendixnative.cookieEncryption") ? project.property("mendixnative.cookieEncryption") : "false"
     }
-
     signingConfigs {
         debug {
             Properties debugProps = new Properties()
@@ -73,7 +72,7 @@ android {
                print 'local.properties not found'
            }
         }
-
+    }
     buildTypes {
         debug {
             signingConfig signingConfigs.debug
