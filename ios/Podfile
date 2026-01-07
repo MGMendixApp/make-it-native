@@ -25,9 +25,11 @@ setup_permissions([
   'LocationWhenInUse',
   'Microphone',
   'PhotoLibrary',
+  'PhotoLibraryAddOnly',
   'Bluetooth',
   'MediaLibrary',
-  'SpeechRecognition'
+  'SpeechRecognition',
+  'StoreKit',
 ])
 
 linkage = ENV['USE_FRAMEWORKS']
